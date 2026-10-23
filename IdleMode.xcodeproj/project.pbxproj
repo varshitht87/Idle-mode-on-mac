@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358FAEBBF7AE5D7D4DBA9788 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15657F44A8F4803A414D06BF /* App.swift */; };
+		4C51102F30B2C732E939D049 /* Customize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CC92A262F4214438F9E12 /* Customize.swift */; };
+		843AEDF5A514A2EA6B074BE2 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59F9A0AF2620252A0EA60E /* Views.swift */; };
+		A3D67B6A6C8F30D0BB0E3DC2 /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D15810675AAEE670BC138 /* Widgets.swift */; };
+		ABE27C9881B14BC9E04728AE /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF0A688C29C7D823390157 /* Background.swift */; };
+		C99167AAB014D269B47F298C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0233309A8741734F00C59 /* Assets.xcassets */; };
+		D240F0478004405B39AC57BA /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476C55E94651E8E52D112931 /* NowPlaying.swift */; };
+		D5639F6E4BF660ABCB6DDA47 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9DBCFC1DD58289995E3F1 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CC9DBCFC1DD58289995E3F1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		15657F44A8F4803A414D06BF /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		1A59F9A0AF2620252A0EA60E /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		36AF0A688C29C7D823390157 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		476C55E94651E8E52D112931 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		8A1D15810675AAEE670BC138 /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
+		970AF29E64582500DE0287C4 /* Idle Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Idle Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC0233309A8741734F00C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA60CA4B5F3B677DEDCC4847 /* IdleMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IdleMode.entitlements; sourceTree = "<group>"; };
+		DF5CC92A262F4214438F9E12 /* Customize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customize.swift; sourceTree = "<group>"; };
+		E611ABB20A0E6623C7EA8B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C7819D10F90638C1AF82C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298C320AFD0B4215F2733872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				970AF29E64582500DE0287C4 /* Idle Mode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310684E8D959EC9560598B80 = {
+			isa = PBXGroup;
+			children = (
+				6FFA048ACF3B6F8FED3FC40D /* Sources */,
+				E7BAFC5151FB9AA8F628C009 /* Resources */,
+				298C320AFD0B4215F2733872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFA048ACF3B6F8FED3FC40D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				15657F44A8F4803A414D06BF /* App.swift */,
+				36AF0A688C29C7D823390157 /* Background.swift */,
+				DF5CC92A262F4214438F9E12 /* Customize.swift */,
+				0CC9DBCFC1DD58289995E3F1 /* Model.swift */,
+				476C55E94651E8E52D112931 /* NowPlaying.swift */,
+				1A59F9A0AF2620252A0EA60E /* Views.swift */,
+				8A1D15810675AAEE670BC138 /* Widgets.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E7BAFC5151FB9AA8F628C009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FC0233309A8741734F00C59 /* Assets.xcassets */,
+				E611ABB20A0E6623C7EA8B11 /* Info.plist */,
+				AA60CA4B5F3B677DEDCC4847 /* IdleMode.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA689942662B3B1D7B8062D /* IdleMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F11C77FD3B27E040F6873B4 /* Build configuration list for PBXNativeTarget "IdleMode" */;
+			buildPhases = (
+				1FA614CC8D89E6C06EAD5FBA /* Sources */,
+				8C7819D10F90638C1AF82C2D /* Frameworks */,
+				04918945F13F70865FEBA45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdleMode;
+			productName = IdleMode;
+			productReference = 970AF29E64582500DE0287C4 /* Idle Mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFA721D5E3E2A4198917B06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7AA689942662B3B1D7B8062D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 5F07041E817A57B06D91DF12 /* Build configuration list for PBXProject "IdleMode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310684E8D959EC9560598B80;
+			productRefGroup = 298C320AFD0B4215F2733872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA689942662B3B1D7B8062D /* IdleMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04918945F13F70865FEBA45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99167AAB014D269B47F298C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA614CC8D89E6C06EAD5FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358FAEBBF7AE5D7D4DBA9788 /* App.swift in Sources */,
+				ABE27C9881B14BC9E04728AE /* Background.swift in Sources */,
+				4C51102F30B2C732E939D049 /* Customize.swift in Sources */,
+				D5639F6E4BF660ABCB6DDA47 /* Model.swift in Sources */,
+				D240F0478004405B39AC57BA /* NowPlaying.swift in Sources */,
+				843AEDF5A514A2EA6B074BE2 /* Views.swift in Sources */,
+				A3D67B6A6C8F30D0BB0E3DC2 /* Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8648A85932A4B42FD1DA656D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90478D1F8E57E31F36D942F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/IdleMode.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Idle Mode";
+				"INFOPLIST_KEY_CFBundleDisplayName[sdk=macosx*]" = "Idle Mode";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varsh.idlemode;
+				PRODUCT_NAME = "Idle Mode";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		950206DE884EE9A0C7BB57BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/IdleMode.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Idle Mode";
+				"INFOPLIST_KEY_CFBundleDisplayName[sdk=macosx*]" = "Idle Mode";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varsh.idlemode;
+				PRODUCT_NAME = "Idle Mode";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA66635CDB8F9B5253CBB60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F11C77FD3B27E040F6873B4 /* Build configuration list for PBXNativeTarget "IdleMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90478D1F8E57E31F36D942F6 /* Debug */,
+				950206DE884EE9A0C7BB57BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F07041E817A57B06D91DF12 /* Build configuration list for PBXProject "IdleMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8648A85932A4B42FD1DA656D /* Debug */,
+				CA66635CDB8F9B5253CBB60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFA721D5E3E2A4198917B06 /* Project object */;
+}

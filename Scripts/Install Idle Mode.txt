@@ -1,0 +1,45 @@
+IDLE MODE FOR MAC 2.3
+
+Needs macOS 15 Sequoia or later. Runs on Apple Silicon and Intel Macs.
+
+
+INSTALL
+1. Drag Idle Mode into your Applications folder.
+2. Open it. macOS says it can't check the app for malicious software, because
+   it isn't from the App Store. Click Done.
+3. Open System Settings > Privacy & Security. Near the bottom, next to
+   "Idle Mode was blocked to protect your Mac", click Open Anyway, then Open.
+   You only need to do this once per version.
+
+
+PERMISSIONS
+Idle Mode asks for these the first time it needs them.
+
+- Control Music, Spotify, Chrome or Safari: click Allow. This is how Now
+  Playing reads what's playing and sends play, pause and skip.
+- Bluetooth: click Allow. It's used only to list your paired headphones
+  in the sound output button.
+- For YouTube and other websites to show artwork, progress and controls:
+    Chrome, Arc, Brave, Edge: View > Developer > Allow JavaScript from Apple Events
+    Safari: Settings > Advanced > Show features for web developers,
+            then Develop > Allow JavaScript from Apple Events
+- Accessibility is optional. It's used only as a fallback to send media keys.
+
+
+NEW IN 2.3
+- Redirect tile: one to four shortcuts to your favourite apps, with Theme,
+  Dark and Clear icon styles.
+- Add and remove tiles on the first page, and a new Mini (1x1) size.
+- A new timer: three live faces (Pulse, Tide, Halo) that beat in time with
+  the countdown, a dial you drag to set it, and five quick options for face,
+  colour, rhythm, sound and an automatic focus-and-break cycle.
+- When the timer ends, the alarm fills the screen above every app.
+- Now Playing artwork and titles grow to fill the tile.
+
+
+UNINSTALL
+Quit Idle Mode, then drag it from Applications to the Bin.
+
+
+FEEDBACK
+Report bugs and ideas at https://github.com/varshitht87/Idle-mode-on-mac/issues
