@@ -136,11 +136,6 @@ Scripts/              Install and packaging scripts
 docs/                 Icon and screenshots
 ```
 
-## Roadmap
-
-- [ ] Developer ID signing and notarisation, so there's no *Open Anyway* step
-- [ ] Mac App Store and TestFlight
-
 ---
 
 <p align="center">Made by Sai Krishna Varshith · <a href="LICENSE">MIT License</a></p>
