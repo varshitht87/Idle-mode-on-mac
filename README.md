@@ -24,6 +24,8 @@ Your MacBook is plugged into a big display, and for much of the day you aren't a
 
 Idle Mode turns those moments into something worth glancing at, a little like StandBy on iPhone. It shows a full-screen panel of tiles you arrange yourself, on a softly moving background that takes its colours from whatever is playing.
 
+📖 **Read the story behind it:** [My Mac Was Boring When I Wasn't Looking, So I Gave It a Heartbeat](https://medium.com/@varshitht87/my-mac-was-boring-when-i-wasnt-looking-so-i-gave-it-a-heartbeat-1f6f8036a012) on Medium.
+
 ## Features
 
 **Dashboard.** Arrange tiles on a 6 × 4 grid. Drag them, resize them (Mini, Small, Wide, Tall, Large), add more while there's room, and remove the ones you don't need.
